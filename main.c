@@ -10,7 +10,7 @@
 int main() {
     //SetConfigFlags(FLAG_WINDOW_UNDECORATED);
     SetTraceLogLevel(LOG_NONE);
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Mini Paint");
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Paint19");
     SetTargetFPS(GetMonitorRefreshRate(GetCurrentMonitor()));
     
     // CANVAS BOYUTLARI
