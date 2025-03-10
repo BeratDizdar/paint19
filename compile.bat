@@ -8,8 +8,8 @@ SET COMPILER_PATH=C:\raylib\w64devkit\bin
 SET PATH=%COMPILER_PATH%;%PATH%
 SET CC=gcc
 SET CFLAGS=-s -static -O2 -Wall -I%RAYLIB_PATH%\src -Iexternal -DPLATFORM_DESKTOP
-SET LDFLAGS=-lraylib -lopengl32 -lgdi32 -lwinmm
-SET NAME_PART=main
+SET LDFLAGS=-lraylib -lopengl32 -lgdi32 -lwinmm -lcomdlg32
+SET NAME_PART=paint19
 
 SET OBJ=
 IF NOT EXIST obj mkdir obj
