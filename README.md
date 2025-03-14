@@ -2,4 +2,4 @@
 
 ## 1 MB altında bir paint uygulaması
 
-Deneme amaçlı açılmış forku
+Sadece .exe dosyasını indirmeniz yeterli
